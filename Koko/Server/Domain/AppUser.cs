@@ -11,5 +11,6 @@ namespace Koko.Server.Domain
         public DateTime PasswordLastChanged { get; set; }
 
         public List<AppUserLogin> Logins { get; set; } = new List<AppUserLogin>();
+        public List<Track> Tracks { get; set; } = new List<Track>();
     }
 }
